@@ -1,0 +1,80 @@
+header img{
+    width: 210px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    background-color: darkgoldenrod;
+}
+
+body{
+    background-image: url("https://previews.123rf.com/images/mangpor2004/mangpor20041605/mangpor2004160500099/56383918-to-do-list-background-template.jpg");
+    background-size: cover;
+}
+
+.container {
+    position: fixed;
+    top: 174px;
+    left: 840px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1{
+    position: fixed;
+    left: 510px;
+    bottom: 750px;
+    font-size: 90px;
+    color: #333;
+  }
+
+  input[type="text"] {
+    width: 500px;
+    height: auto;
+    padding: 15px 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+
+  button {
+    position: fixed;
+    right: 510px;
+    width: 150px;
+    padding: 15px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 15px;
+  }
+
+  ul {
+      position: fixed;
+      top: 270px;
+      left: 240px;
+      list-style-type: none;
+      padding: 0;
+      text-align: left;
+    }
+
+    li {
+        margin: 10px;
+        font-size: 36px;
+    }
+
+    li input[type="checkbox"] {
+      position: relative;
+      bottom: 6px;
+      margin-right: 10px;
+      transform: scale(1.5);
+    }
+
+    li button {
+      position: relative;
+      left: 36px;
+      bottom: 6px;
+      padding: 6px 15px;
+    }
+
+  .task-complete {
+    text-decoration: line-through;
+    color: black;
+  }
